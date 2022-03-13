@@ -37,7 +37,7 @@ An application  to manage  Contact details using e-mail and secret password.
 
 * index.js - Contains the code that handles storing the contacts into the database as well as displaying the appropriate contacts according to the signed in user.
 
-* The index.js file also conatins this middleware function which is used to check if any user is currently signed in or not. If a user is currently signed in then the function redirects to carries on to display the required page else it redirects to the sign in page
+* The index.js file also contains this middleware function which is used to check if any user is currently signed in or not. If a user is currently signed in then the function redirects to carries on to display the required page else it redirects to the sign in page
 
        
        function isLoggedIn(req, res, next){
